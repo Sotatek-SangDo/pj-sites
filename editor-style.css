@@ -1,0 +1,10 @@
+/*
+todo change it to support admin typography options ;)
+ */
+
+body#tinymce.wp-editor {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+}

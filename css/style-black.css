@@ -1,0 +1,476 @@
+/**
+    BetterMag Simple Dark Style
+
+    TABLE OF CONTENTS:
+
+    2. =>Global Structure
+        2.3. =>Navigation
+        2.4. =>Footer
+        2.5. =>Breadcrumb
+
+    3. =>Components & Common Classes
+            3.1.1 =>Section Heading Extended
+        3.2. =>Page Heading
+        3.3. =>Widget
+        3.5. =>Newsticker
+
+    9.2. =>Archive Page
+
+    10. =>WooCommerce
+
+*/
+
+
+/**
+ * 2.3. =>Navigation
+ **/
+.main-menu,
+.main-menu.boxed .main-menu-container{
+    background-color:#3b3b3b;
+}
+.main-menu,
+.main-menu.boxed .main-menu-container{
+    border-bottom-color:#707070;
+}
+.main-menu .menu>li.random-post>a,
+.main-menu .search-item .search-form{
+    background-color:#707070;
+}
+.main-menu .menu > li,
+.main-menu .menu a,
+.main-menu .search-item .search-form .search-submit,
+.main-menu .main-menu-container.mobile-menu-container .mobile-button a{
+    color:#ffffff;
+}
+.main-menu .menu>.current-menu-ancestor>a,
+.main-menu .menu> .current-menu-parent>a,
+.main-menu .menu> .current-menu-item>a,
+.main-menu .mobile-menu-container .mega-menu.style-link a,
+.main-menu .mobile-menu-container li.active > a{
+    background-color:#4d4d4d;
+}
+.main-menu .menu > .current-menu-ancestor > a,
+.main-menu .menu > .current-menu-parent > a,
+.main-menu .menu > .current-menu-item > a{
+    color:#ffffff;
+}
+.main-menu .menu > li:hover > a,
+.main-menu .mobile-menu-container .menu > li.alignright > a.children-button,
+.main-menu .mobile-menu-container .menu li .children-button{
+    background-color:#4d4d4d;
+}
+.main-menu .menu > li:hover > a{
+    color:#ffffff;
+}
+.main-menu .menu > li > .sub-menu,
+.main-menu .menu > li > .sub-menu .sub-menu{
+    background-color:#3b3b3b;
+}
+.main-menu .mega-menu.cart-widget.widget_shopping_cart ul.cart_list li{
+    background-color:#3b3b3b;
+}
+.main-menu .menu > li > .sub-menu li a{
+    color:#ffffff;
+}
+.main-menu .menu>li>.sub-menu li,
+.main-menu .mobile-menu-container .mega-menu.style-link > li,
+.main-menu .mobile-menu-container .menu > li{
+    border-bottom-color:#4d4d4d;
+}
+.main-menu .menu>li >.sub-menu>li.current_page_item>a,
+.main-menu .menu>li >.sub-menu>li.current-menu-item>a,
+.main-menu .menu>li >.sub-menu>li.current-menu-parent>a,
+.main-menu .menu>li >.sub-menu>li.current-menu-ancestor>a,
+.main-menu .menu>li >.sub-menu .sub-menu>li.current_page_item>a,
+.main-menu .menu>li >.sub-menu .sub-menu>li.current-menu-item>a,
+.main-menu .menu>li >.sub-menu .sub-menu>li.current-menu-parent>a,
+.main-menu .menu>li >.sub-menu .sub-menu>li.current-menu-ancestor>a{
+    background-color:#4d4d4d;
+}
+.main-menu .menu>li>.sub-menu>li.current_page_item>a,
+.main-menu .menu>li>.sub-menu>li.current-menu-item>a,
+.main-menu .menu>li>.sub-menu>li.current-menu-parent>a,
+.main-menu .menu>li>.sub-menu>li.current-menu-ancestor>a,
+.main-menu .menu>li>.sub-menu .sub-menu>li.current_page_item>a,
+.main-menu .menu>li>.sub-menu .sub-menu>li.current-menu-item>a,
+.main-menu .menu>li>.sub-menu .sub-menu>li.current-menu-parent>a,
+.main-menu .menu>li>.sub-menu .sub-menu>li.current-menu-ancestor>a{
+    color:#ffffff;
+}
+.main-menu .menu>li>.sub-menu>li:hover>a,
+.main-menu .menu>li>.sub-menu .sub-menu>li:hover>a{
+    background-color:#4d4d4d;
+}
+.main-menu .mega-menu.cart-widget.widget_shopping_cart ul.cart_list li:hover{
+    background-color:#4d4d4d;
+}
+.main-menu .menu>li>.sub-menu>li:hover>a,
+.main-menu .menu>li>.sub-menu .sub-menu>li:hover>a{
+    color:#ffffff;
+}
+.mega-menu.cart-widget.widget_shopping_cart ul.cart_list li,
+.mega-menu.cart-widget.widget_shopping_cart ul.cart_list a,
+.mega-menu.cart-widget.widget_shopping_cart ul.cart_list p,
+.main-wrap .widget_shopping_cart .total,
+.main-wrap .widget_shopping_cart .total .amount,
+.main-wrap ul.product_list_widget li .quantity{
+    color:#ffffff;
+}
+.main-menu .mega-menu{
+    background-color:#3b3b3b;
+}
+.main-menu .menu > li > .mega-menu .mega-menu-links{
+    background-color:#242424;
+}
+.mega-menu.style-link > li > a,
+.main-menu .menu > li .sub-menu > li > a,
+.main-menu .mega-menu .listing-simple li h3.title a,
+.main-menu .mega-menu .block-modern h2.title a,
+.main-menu .mega-menu .listing-thumbnail h3.title a,
+.main-menu .mega-menu .blog-block h2 a{
+    color:#ffffff;
+}
+.mega-menu.style-link > li > a,
+.mega-menu.style-category > li > a,
+.mega-menu.style-link li .sub-menu li,
+.mega-menu.style-category li .sub-menu li,
+.mega-menu .listing-simple li,
+.mega-menu .listing-thumbnail li,
+.main-menu .menu li .sub-menu.mega-menu-links .menu-item-has-children > a,
+.main-menu .menu li .mega-menu .sub-menu li{
+    border-bottom-color:#4d4d4d;
+}
+.mega-menu.style-link li .sub-menu .sub-menu li:first-child{
+    border-top-color:#4d4d4d;
+}
+.mega-menu .block-modern .highlight-line:before{
+    background-color:#4d4d4d;
+}
+.main-menu .menu .mega-menu .sub-menu li.current_page_item>a,
+.main-menu .menu .mega-menu .sub-menu li.current-menu-item>a,
+.main-menu .menu .mega-menu .sub-menu li.current-menu-parent>a,
+.main-menu .menu .mega-menu .sub-menu li.current-menu-ancestor>a{
+    background-color:#4d4d4d;
+}
+.main-menu .menu .mega-menu .sub-menu li.current_page_item>a,
+.main-menu .menu .mega-menu .sub-menu li.current-menu-item>a,
+.main-menu .menu .mega-menu .sub-menu li.current-menu-parent>a,
+.main-menu .menu .mega-menu .sub-menu li.current-menu-ancestor>a{
+    color:#ffffff;
+}
+.main-menu .menu .mega-menu li .sub-menu li:hover > a,
+.main-menu .menu > li > .mega-menu.style-category .mega-menu-links a:hover{
+    background-color:#4d4d4d;
+}
+.main-menu .menu .mega-menu .sub-menu li:hover>a{
+    color:#ffffff;
+}
+.mega-menu .section-heading span.h-title{
+    color:#ffffff;
+}
+.mega-menu .section-heading span.h-title{
+    background-color:#4d4d4d;
+}
+.mega-menu .section-heading{
+    border-bottom-color:#4d4d4d;
+}
+.main-menu.style-large .desktop-menu-container .menu > li > a > .description {
+    color: #B8B8B8;
+}
+.main-menu.style-large .desktop-menu-container .menu > li > a:before{
+    background-color:#6B6B6B;
+}
+.main-menu.style-large .desktop-menu-container .menu > li.menu-item-has-children > a:after{
+    color: #BABABD;
+}
+
+
+/**
+ * 2.4. =>Footer
+ **/
+.footer-larger-wrapper,
+.footer-larger-wrapper .widget.widget_nav_menu li a{
+    background-color:#575757;
+}
+.footer-larger-widget .better-social-counter.style-clean .social-item{
+    border-bottom-color:#575757;
+}
+.footer-larger-wrapper,
+.footer-larger-wrapper .the-content,
+.footer-larger-wrapper .the-content p,
+.footer-larger-wrapper .the-content a,
+.footer-larger-widget .better-social-counter.style-clean .item-count,
+.footer-larger-widget .better-social-counter.style-clean .item-title,
+.footer-larger-wrapper .widget.widget_nav_menu li a{
+    color:#ffffff;
+}
+.footer-lower-wrapper{
+    background-color:#333333;
+}
+.footer-lower-wrapper,
+.footer-lower-wrapper a,
+.footer-lower-wrapper .the-content,
+.footer-lower-wrapper .the-content p{
+    color:#ffffff;
+}
+
+.footer-larger-wrapper .listing-thumbnail h3.title a{
+    color: #fff;
+}
+.footer-larger-wrapper .listing-thumbnail li{
+    border-color: #919191;
+}
+.footer-larger-wrapper .listing-thumbnail li{
+    border-color: #4D4D4D;
+    border-color: rgba(0, 0, 0, 0.10);
+}
+
+
+/**
+ * 2.5. =>Breadcrumb
+ **/
+.bf-breadcrumb-wrapper,
+.bf-breadcrumb-wrapper.boxed .bf-breadcrumb{
+    background-color:#3b3b3b;
+}
+.bf-breadcrumb a{
+    color:#ffffff;
+}
+.bf-breadcrumb .sep,
+.bf-breadcrumb .trail-end{
+    color:#c4c4c4;
+}
+
+
+/**
+ * 3.1.1 =>Section Heading Extended
+ **/
+.section-heading.extended .other-links .other-item a{
+    background-color:#4a4a4a;
+    color: #fff;
+}
+
+
+/**
+ * 3.2. =>Page Heading
+ **/
+#bbpress-forums li.bbp-header,
+.page-heading{
+    border-bottom-color:#878787;
+}
+
+
+/**
+ * 3.3. =>Widget
+ **/
+.primary-sidebar-widget .section-heading,
+.footer-larger-widget .section-heading{
+    background-color:#4a4a4a;
+}
+.widget .section-heading.extended .other-links .other-item a,
+.widget .section-heading span.h-title{
+    background-color:#4a4a4a;
+}
+.primary-sidebar-widget .section-heading,
+.footer-larger-widget .section-heading{
+    border-color:#4a4a4a;
+}
+.footer-larger-widget.widget .tagcloud a{
+    background-color: #575757;
+    color: #a0a0a0;
+}
+.footer-larger-widget.widget .tagcloud a:hover{
+    color: #E44E4F;
+}
+.footer-aside .widget .tab-read-more{
+    background: -moz-linear-gradient(top, rgba(28, 47, 65, 0) 0%, #3D3D3D 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(28, 47, 65, 0)), color-stop(100%,#3D3D3D));
+    background: -webkit-linear-gradient(top, rgba(28, 47, 65, 0) 0%,#3D3D3D 100%);
+    background: -o-linear-gradient(top, rgba(28, 47, 65, 0) 0%,#3D3D3D 100%);
+    background: -ms-linear-gradient(top, rgba(28, 47, 65, 0) 0%,#3D3D3D 100%);
+    background: linear-gradient(to bottom, rgba(28, 47, 65, 0) 0%,#3D3D3D 100%);
+    border-bottom: 1px solid #2C2C2C;
+}
+.footer-aside .widget .tab-read-more a{
+    color: #fff;
+}
+.footer-aside .widget .tab-read-more a:hover{
+    color: #E44E4F;
+}
+.footer-lower-wrapper .widget_nav_menu ul.menu li a{
+    background-color:#575757;
+}
+.footer-lower-wrapper .widget_nav_menu ul.menu li a:hover{
+    background-color:#e15150;
+}
+
+/**
+ * 3.4. =>Search Form
+ **/
+#bbp-search-form #bbp_search,
+.widget .search-form .search-field {
+    background-color: #3c3c3c;
+    border-color: #4a4a4a;
+}
+#bbp-search-form #bbp_search_submit,
+.widget .search-form .search-submit{
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: #fff;
+}
+#bbp-search-form.have-focus #bbp_search,
+#bbp-search-form.have-focus #bbp_search_submit,
+.widget .search-form.have-focus .search-field,
+.widget .search-form.have-focus .search-submit{
+    border-color: #3d3d3d;
+}
+#bbp-search-form.have-focus #bbp_search_submit,
+.widget .search-form.have-focus .search-submit{
+    color: #ffffff;
+}
+.aside-logo-sidebar .widget .search-form .search-field {
+    border: 3px solid #707070;
+}
+.aside-logo-sidebar .widget .search-form .search-submit {
+    background-color: #707070;
+    color: #fff;
+}
+.aside-logo-sidebar .widget .search-form.have-focus .search-field {
+    border-color: #3b3b3b;
+}
+.aside-logo-sidebar .widget .search-form.have-focus .search-submit {
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+
+/**
+ * 3.5. =>Newsticker
+ **/
+.bf-news-ticker{
+    background-color:#4d4d4d;
+}
+.bf-news-ticker ul.news-list li a{
+    color:#ffffff;
+}
+
+
+/**
+ * 3.10. =>Share Box and Social Share List
+ **/
+.share-box{
+    border-color: #4d4d4d;
+}
+
+
+/**
+ * 5.1. =>Calender
+ **/
+.widget.widget_calendar table caption {
+    background-color: #3d3d3d;
+    color: #fff;
+}
+.widget.widget_calendar table tfoot td,
+.widget.widget_calendar table th {
+    background-color: #3d3d3d;
+    color: #fff;
+}
+.widget.widget_calendar table td.pad:hover,
+.widget.widget_calendar table td.pad {
+    background-color: #7E7E7E;
+    color: #fff;
+}
+.widget.widget_calendar table td:hover,
+.widget.widget_calendar table td {
+    background-color: #565656;
+    color: #fff;
+}
+.widget.widget_calendar table td.active-day {
+    background-color: #3d3d3d;
+}
+.widget.widget_calendar table td.active-day:hover {
+    background-color: #434343;
+}
+
+
+/**
+ * 6.7. =>Twitter
+ **/
+.footer-aside .bf-shortcode-twitter .bf-tweets-list > li:nth-child(even){
+    background-color: #464646
+}
+.footer-aside .bf-shortcode-twitter .bf-tweets-list > li:nth-child(odd){
+    background-color: #3d3d3d
+}
+.footer-aside .bf-shortcode-twitter .bf-tweets-list .tweet-actions .action a:hover,
+.footer-aside .bf-shortcode-twitter a:hover,
+.footer-aside .bf-shortcode-twitter a{
+    color: #06ade8;
+}
+.footer-aside .bf-shortcode-twitter .bf-tweets-list .tweet-actions .action a,
+.footer-aside .bf-shortcode-twitter .bf-tweets-list .time{
+    color: #BDBCBC;
+}
+
+
+/**
+ * 9.2. =>Archive Page
+ **/
+.archive-section .column-3,
+.archive-section .column-2,
+.archive-section .column-1{
+    border-color: #6a6a6a;
+}
+.archive-section li:before,
+.archive-section h3:before{
+    background-color: #3b3b3b;
+}
+@media only screen and (max-width : 480px) {
+    .archive-section .column-1,
+    .archive-section .column-2,
+    .archive-section .column-3{
+        border-left-color: #6a6a6a;
+    }
+}
+
+
+/**
+ * 9.6. =>Back To Top
+ **/
+.back-top {
+    background: #3F3F3F;
+}
+
+
+#bbpress-forums #bbp-search-form #bbp_search{
+    background-color: #fff;
+}
+
+/**
+ * 10. =>WooCommerce
+ **/
+body .bm-wc-cart .cart-link{
+    border-color: #707070;
+}
+body .bm-wc-cart .cart-link .fa-shopping-cart{
+    background-color: #707070;
+    color: #fff;
+}
+body .bm-wc-cart .items-list{
+    border-color: #707070;
+}
+body .bm-wc-cart .widget_shopping_cart .total strong{
+    color: #707070;
+}
+
+.section-heading{
+    border-bottom-color: #3b3b3b;
+}
+.section-heading.extended .other-links .other-item a,
+.section-heading span.h-title{
+    background-color: #4a4a4a;
+    color: #fff;
+}
+.section-heading span.h-title a{
+    color: #fff;
+}

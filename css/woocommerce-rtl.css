@@ -1,0 +1,102 @@
+/*
+    BetterMag WooCommerce RTL Style:
+
+    TABLE OF CONTENTS:
+
+    1. =>Global
+        1.1. =>Add To Cart Button
+
+    2. =>Loop & Single
+
+    3. =>Order Select
+
+    11. =>Woo Commerce Message
+
+*/
+
+/**
+ * 1. =>Global
+ **/
+.woocommerce-account .woocommerce .address .title h3:before, .woocommerce-account .woocommerce h2:before, .cross-sells h2:before, .related.products h2:before, .woocommerce #reviews h3:before, .woocommerce-page #reviews h3:before, .woocommerce-tabs .panel.entry-content h2:before, .woocommerce .shipping_calculator h2:before, .woocommerce .cart_totals h2:before, h3#order_review_heading:before, .woocommerce-shipping-fields h3:before, .woocommerce-billing-fields h3:before{
+    left: initial;
+    right: 0;
+}
+
+
+/**
+ * 1.1. =>Add To Cart Button
+ **/
+.woocommerce ul.products li.product a.button.add_to_cart_button,
+.woocommerce-page ul.products li.product a.button.add_to_cart_button {
+    float: left;
+}
+
+
+/**
+ * 3. =>Order Select
+ **/
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering{
+    float: left;
+}
+.order-select {
+    float: left;
+}
+.order-select .drop-down{
+    padding-right: 0;
+}
+
+
+/**
+ * 7. =>Widget Product List
+ **/
+.main-wrap ul.product_list_widget li img {
+    margin: -5px 5px 0 10px;
+    float: right;
+}
+.main-wrap ul.product_list_widget li .quantity{
+    float: right;clear: left;
+}
+
+
+/**
+ * 9. =>Widget Search
+ **/
+.main-wrap .widget.widget_product_search #searchsubmit{
+    left: 0;
+    right: initial;
+}
+.main-wrap .widget.widget_product_search #s{
+    padding: 0 10px 0 22%;
+}
+
+
+/**
+ * 11. =>Woo Commerce Message
+ **/
+.main-wrap .woocommerce-info,
+.main-wrap .woocommerce-error,
+.main-wrap .woocommerce-message{
+    padding: 1em 3.5em 1em 1em!important;
+}
+.main-wrap .woocommerce-info:before,
+.main-wrap .woocommerce-error:before,
+.main-wrap .woocommerce-message:before{
+    left: initial;
+    right: -1px;
+}
+.woocommerce #content div.product form.cart .button, .woocommerce div.product form.cart .button, .woocommerce-page #content div.product form.cart .button, .woocommerce-page div.product form.cart .button {
+    vertical-align: middle;
+    float: right;
+}
+.woocommerce .woocommerce-product-rating .star-rating, .woocommerce-page .woocommerce-product-rating .star-rating{
+    float: right;
+    margin: .5em 0 0 4px;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text, .woocommerce-page #reviews #comments ol.commentlist li .comment-text{
+    margin: 0 50px 0 0 ;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar, .woocommerce-page #reviews #comments ol.commentlist li img.avatar{
+    float: right;
+    left: initial;
+    right: 0;
+}
