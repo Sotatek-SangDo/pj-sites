@@ -1,0 +1,160 @@
+/*
+    BetterMag WP Admin Style
+
+    1. =>Base
+        1.1. =>Main Helpers
+
+    2. =>Visual Composer
+        2.1. =>Block Listing Image Radio Field
+        2.2. =>BF Add-ons
+
+*/
+
+
+/**
+ * 1. =>Base
+ **************************************************************/
+
+
+/**
+ * 2. =>Visual Composer
+ **************************************************************/
+
+
+/**
+ * 2.1. =>Block Listing Image Radio Field
+ **************************************************************/
+.bf-section-container.vc-block-listing-style .vc-bf-image-radio-option {
+    text-align: center;
+    /*height: 34px;*/
+    overflow: hidden;
+}
+.bf-section-container.vc-block-listing-style .vc-bf-image-radio-option img{
+    padding: 5px 30px;
+    text-align: center;
+}
+
+
+
+/**
+ * 2.2. =>BF Add-ons
+ **************************************************************/
+
+/*.wpb-content-layouts li[data-element=bm-dribbble],*/
+/*.wpb-content-layouts li[data-element=bf_flickr],*/
+/*.wpb-content-layouts li[data-element=bf_likebox],*/
+/*.wpb-content-layouts li[data-element=bf_twitter],*/
+/*.wpb-content-layouts li[data-element=bf_about],*/
+/*.wpb-content-layouts li[data-element=bf_advertisement_code],*/
+/*.wpb-content-layouts li[data-element=bf_advertisement_image],*/
+/*.wpb-content-layouts li[data-element=bf_social_share]{*/
+    /*background-color: #F9FDFF !important;*/
+    /*border-color: #9cd4eb !important;*/
+/*}*/
+/*.wpb_content_element[data-element_type=bm-dribbble] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bf_flickr] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bf_likebox] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bf_twitter] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bf_about] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bf_advertisement_code] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bf_advertisement_image] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bf_social_share] > .wpb_element_wrapper{*/
+    /*background-color: #F9FDFF !important;*/
+    /*border-color: #9cd4eb !important;*/
+/*}*/
+
+
+
+/**
+ * 2.3. =>BetterMag Add-ons
+ **************************************************************/
+/*.wpb-content-layouts li[data-element=bm_content_listing_1],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_2],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_3],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_4],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_5],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_6],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_7],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_8],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_9],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_10],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_11],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_12],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_13],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_14],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_15],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_16],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_17],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_18],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_19],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_20],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_21],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_22],*/
+/*.wpb-content-layouts li[data-element=bm_content_listing_23],*/
+/*.wpb-content-layouts li[data-element=bm_content_tab_listing],*/
+/*.wpb-content-layouts li[data-element=bm_user_listing_1],*/
+/*.wpb-content-layouts li[data-element=bm_user_listing_2]{*/
+    /*background-color: #FFF9F9 !important;*/
+    /*border-color: #FCB7BA !important;*/
+/*}*/
+
+
+/*.wpb_content_element[data-element_type=bm_content_listing_1] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_2] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_3] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_4] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_5] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_6] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_7] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_8] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_9] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_10] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_11] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_12] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_13] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_14] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_15] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_16] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_17] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_18] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_19] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_20] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_21] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_22] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_listing_23] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_content_tab_listing] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_user_listing_1] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_user_listing_2] > .wpb_element_wrapper{*/
+    /*background-color: #FFF9F9 !important;*/
+    /*border-color: #FCB7BA !important;*/
+/*}*/
+
+
+/*.wpb_content_element[data-element_type=bm_slider_listing_12] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_11] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_10] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_9] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_8] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_7] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_6] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_5] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_4] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_3] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_2] > .wpb_element_wrapper,*/
+/*.wpb_content_element[data-element_type=bm_slider_listing_1] > .wpb_element_wrapper,*/
+
+/*.wpb-content-layouts li[data-element=bm_slider_listing_12],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_11],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_10],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_9],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_8],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_7],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_6],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_5],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_4],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_3],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_2],*/
+/*.wpb-content-layouts li[data-element=bm_slider_listing_1]{*/
+    /*background-color: #F4FFFA !important;*/
+    /*border-color: #99D7B8 !important;*/
+/*}*/

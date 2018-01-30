@@ -1,0 +1,202 @@
+.bf-button .fa, .bf-button .dashicons {
+    margin-right: 0;
+    margin-left: 5px;
+}
+#bf-nav {
+    float: right;
+}
+#bf-content {
+    float: left;
+}
+body.bf-admin-panel #wpcontent {
+    padding-right: 0;
+    padding-left: 20px;
+}
+#bf-nav>ul>li a {
+    padding: 14px 16px 14px 0;
+    border-left: none;
+    border-right: 1px solid #E8E8E8;
+}
+#bf-nav>ul>li.child_active>a:after, #bf-nav>ul>li a.active_tab:after {
+    right: initial;
+    left: -1px;
+}
+#bf-nav>ul>li a .bf-icon {
+    margin: 0 0 0 7px;
+    float: right;
+}
+.bf-section-container.bf-admin-panel .bf-section .bf-heading {
+    float: right;
+    padding: 0 0 0 20px;
+}
+.bf-section-container.bf-admin-panel .bf-section .bf-controls {
+    float: left;
+}
+.bf-section-container.bf-admin-panel .bf-section .bf-explain {
+    float: right;
+    padding: 0 0 0 15px;
+}
+.bf-section-container .better-select-image .select-options:after {
+    right: initial;
+    left: -1px;
+}
+.bf-section-container .bf-section-info .bf-section-info-title .fa {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.fields-group.collapsible .fields-group-title-container .collapse-button {
+    right: initial;
+    left: -1px;
+}
+.fields-group .fields-group-title-container .fields-group-title {
+    padding: 0 20px 0 62px;
+}
+.bf-section-container .bf-controls-background_image-option .bf-background-image-uploader-select-container:before, .bf-section-container .bf-select-option-container:before {
+    right: initial;
+    left: 0;
+}
+.bf-field-with-prefix span, .bf-field-with-suffix span {
+    left: 1px;
+    right: initial;
+    border-left: none;
+    border-right: 1px solid #d6d6d6;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-2-column li {
+    float: right;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-2-column li:nth-child(even) {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-2-column li:nth-child(odd) {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.bf-repeater-item .bf-repeater-item-title .handle-repeater-item {
+    right: initial;
+    left: -1px;
+}
+.bf-repeater-item .bf-repeater-item-title {
+    padding: 0 15px 0 55px;
+}
+.bf-repeater-item .bf-remove-repeater-item-btn {
+    float: left;
+}
+.bf-section-container .bf-section.bf-section-media-option .bf-controls input[type=text] {
+    float: right;
+}
+.bf-section-container .bf-section.bf-section-media-option .bf-controls .bf-media-upload-btn {
+    float: left;
+}
+.bf-section-container.bf-metabox .bf-section .bf-heading {
+    float: right;
+    padding: 0 0 0 20px;
+    clear: none;
+}
+.bf-section-container.bf-metabox .bf-section.no-desc .bf-controls, .bf-section-container.bf-metabox .bf-section .bf-controls {
+    float: left;
+    clear: none;
+}
+.bf-section-container.bf-metabox .bf-section .bf-explain {
+    float: right;
+    padding: 0 0 0 15px;
+    clear: none;
+}
+.bf-metabox-tabs {
+    float: right;
+}
+.bf-metabox-container.bf-with-tabs {
+    float: left;
+    border-left: none;
+    border-right: 1px solid #e2dddb;
+}
+.bf-metabox-tabs .bf-tab-item-a.active_tab:after {
+    right: initial;
+    left: -1px;
+}
+.bf-metabox-tabs .bf-tab-item-a .bf-icon{
+    float: right;
+    margin-left: 5px;
+}
+.bf-section-container .bf-color-picker-preview {
+    right: initial;
+    left: 5px;
+}
+.bf-ajax_select-field-container span.bf-search-loader {
+    right: initial;
+    left: 1px;
+    top: 1px;
+    border-left: none;
+    border-right: 1px solid #d9d9d9;
+}
+.wpb_edit_form_elements .bf-section-container .bf-background-image-remove-btn, .bf-section-container .bf-background-image-remove-btn {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.menu-item .fields-group {
+    float: right;
+}
+.menu-item .fields-group .fields-group-title-container .fields-group-title {
+    padding: 0 16px 0 62px;
+}
+.bf-section-container .bf-select-icon .select-options .better-icons-category-list li {
+    margin-right: 0;
+    margin-left: 10px;
+    float: right;
+}
+.bf-section-container .typo-field-container:before {
+    right: initial !important;
+    left: 10px !important;
+}
+.bf-field-with-suffix span.bf-suffix {
+    margin-left: 0px;
+}
+.bf-section-container.bf-admin-panel .bf-section.bf-section-typography-option .bf-explain{
+    float: left;
+}
+.bf-section-container.bf-admin-panel .bf-section.bf-section-typography-option .bf-controls{
+    float: right;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.bf-page-header.sticky .bf-page-header-inner {
+    padding: 20px 190px 20px 30px;
+}
+.bf-ajax-suggest-controls > li .del {
+    margin-left: 8px;
+    font-weight: bold;
+    margin-top: 7px;
+    float: right;
+}
+.bf-section-container .bf-select-icon .select-options .selected-option {
+    padding: 0 15px 0 50px;
+}
+.bf-section-container .bf-select-icon .select-options .selected-option .fa {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.bf-section-container .bf-select-icon .select-options:after {
+    right: initial;
+    left: 1px;
+    border-right: 1px solid #d9d9d9;
+    border-left: none;
+}
+.bf-section-container .typo-field-container {
+    float: right;
+}
+.bf-section-container .bf-section-media_image-option .bf-media-image-remove-btn {
+    margin-left: 0;
+}
+.bf-section-container .bf-section-media_image-option .bf-media-image-upload-btn {
+    margin-left: 10px;
+}
+.bf-section-container .bf-icon-modal-handler .select-options:before{
+    right: inherit;
+    left: 0;
+    border-left: none;
+    border-right: 1px solid #d9d9d9;
+}
+.bf-section-container .bf-icon-modal-handler .select-options .selected-option .bf-icon {
+    margin-right: 0;
+    margin-left: 6px;
+}

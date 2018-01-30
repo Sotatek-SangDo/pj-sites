@@ -1,0 +1,1 @@
+<?php Better_Mag::generator()->blocks()->get_pagination();

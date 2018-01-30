@@ -1,0 +1,17 @@
+.wpb-content-layouts li[data-element=BetterWeather],
+.wpb-content-layouts li[data-element=BetterWeather-inline],
+.wpb_content_element[data-element_type=BetterWeather-inline] > .wpb_element_wrapper,
+.wpb_content_element[data-element_type=BetterWeather] > .wpb_element_wrapper{
+    background-color: #FFF2EC;
+    border-color: #FFC9B4 !important
+}
+.wpb_element_wrapper div[data-element_type=BetterWeather] .vc_admin_label,
+.wpb_element_wrapper div[data-element_type=BetterWeather-inline] .vc_admin_label{
+    display: block;
+    margin: 5px 0;
+    padding-left: 42px;
+}
+.wpb_element_wrapper div[data-element_type=BetterWeather] .vc_admin_label label,
+.wpb_element_wrapper div[data-element_type=BetterWeather-inline] .vc_admin_label label{
+    font-weight: bold;
+}
